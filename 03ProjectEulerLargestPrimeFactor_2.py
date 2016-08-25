@@ -1,4 +1,4 @@
-#achar o maior fato do numero
+#achar o maior fator do numero
 t = int(input())
 
 for z in range(t):
@@ -8,7 +8,7 @@ for z in range(t):
     while i*i <= N:
         while N % i == 0:
             largest_prime = i
-            N //= i #ver o que e isso
+            N //= i
         i += 1
         if N>largest_prime:
             largest_prime = N;
